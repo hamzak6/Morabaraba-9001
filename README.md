@@ -3,4 +3,3 @@ A .NET Core implementation of Morabaraba in fulfilment of Rhodes University Comp
 
 ## Authors
 Ronald Munodawafa
-Hamza Kalla
