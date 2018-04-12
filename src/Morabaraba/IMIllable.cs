@@ -1,6 +1,6 @@
 namespace Morabaraba
 {
-    interface IMillable
+    public interface IMillable
     {
         /// <summary>
         /// Does the coordinate contain a cow in a mill?

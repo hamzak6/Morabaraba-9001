@@ -1,6 +1,6 @@
 namespace Morabaraba
 {
-    interface IPlaceable
+    public interface IPlaceable
     {
         /// <summary>
         /// Place a cow onto a coordinate

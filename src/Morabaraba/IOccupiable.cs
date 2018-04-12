@@ -1,6 +1,6 @@
 namespace Morabaraba
 {
-    interface IOccupiable
+    public interface IOccupiable
     {
         /// <summary>
         /// Is the coordinate ooccupied?
