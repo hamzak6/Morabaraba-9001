@@ -1,0 +1,4 @@
+language: csharp
+solution: Morabaraba-9001.sln
+mono: none
+dotnet: 2.1.104
