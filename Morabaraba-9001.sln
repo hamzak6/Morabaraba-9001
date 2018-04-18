@@ -5,11 +5,11 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{26B1B50F-75FB-465A-BFBE-FC15ECAB8747}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morabaraba", "src\Morabaraba\Morabaraba.csproj", "{9476D0CF-5748-431F-9C70-1AF017E0E8CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Source", "src\Morabaraba\Source.csproj", "{9476D0CF-5748-431F-9C70-1AF017E0E8CC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{88040AFA-A489-4E68-8416-F1822F958994}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Morabaraba", "test\Morabaraba\Morabaraba.csproj", "{5D806F90-C8C3-4983-A0E0-81A9BB6E3742}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "test\Morabaraba\Tests.csproj", "{5D806F90-C8C3-4983-A0E0-81A9BB6E3742}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

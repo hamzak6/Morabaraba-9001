@@ -1,5 +1,5 @@
 # Can be generated from project
-src/Morabaraba/bin/
-src/Morabaraba/obj/
-test/Morabaraba/bin/
-test/Morabaraba/obj/
+src/Morabaraba/bin/*
+src/Morabaraba/obj/*
+test/Morabaraba/bin/*
+test/Morabaraba/obj/*
