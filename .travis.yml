@@ -7,5 +7,4 @@ script:
   - dotnet test test/Morabaraba
 os:
   - osx
-  - windows
   - linux
