@@ -1,0 +1,4 @@
+# Can be generated from project
+**/bin/**
+**/obj/**
+.vscode
