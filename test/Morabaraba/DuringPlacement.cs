@@ -22,5 +22,16 @@ namespace Tests
                 player.Placed();
             Assert.Throws<InvalidOperationException>(() => player.Placed());
         }
+
+        /// <summary> Dark player plays first </summary>
+        [Test]
+        public void DarkPlayerPlaysFirst()
+        {
+            var shootDeterminer = Substitute.For<IShootDeterminer>();
+            shootDeterminer.CanShoot(Colour.Dark).Returns(false);
+            ITurnDeterminer turnDeterminer = new TurnDeterminer(shootDeterminer);
+            var darkPlaysFirst = turnDeterminer.Turn == Colour.Dark;
+            Assert.IsTrue(darkPlaysFirst);
+        }
     }
 }
