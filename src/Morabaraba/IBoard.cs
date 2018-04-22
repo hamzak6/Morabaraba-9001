@@ -19,5 +19,8 @@ namespace Morabaraba
         /// <param name="player">The colour of the player</param>
         /// <returns>Whether any of the cows can move</returns>
         bool CanMove(Colour player);
+
+        /// <summary> Are all the coordinates occupied </summary>
+        bool AllCoordinatesOccupied{ get; }
     }
 }

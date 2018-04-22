@@ -1,0 +1,10 @@
+language: csharp
+solution: Morabaraba-9001.sln
+mono: none
+dotnet: 2.1.4
+script:
+  - dotnet build
+  - dotnet test test/Morabaraba
+os:
+  - osx
+  - linux
